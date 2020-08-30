@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="21px" height="21px" viewBox="0 0 21 21" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Mobile" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="d-Mobile-menu" transform="translate(-53.000000, -795.000000)">
+            <g id="Group" transform="translate(54.000000, 796.000000)">
+                <path d="M9.5,19.5 C3.9771525,19.5 -0.5,15.0228475 -0.5,9.5 C-0.5,3.9771525 3.9771525,-0.5 9.5,-0.5 C15.0228475,-0.5 19.5,3.9771525 19.5,9.5 C19.5,15.0228475 15.0228475,19.5 9.5,19.5 Z M9.5,18.5 C14.4705627,18.5 18.5,14.4705627 18.5,9.5 C18.5,4.52943725 14.4705627,0.5 9.5,0.5 C4.52943725,0.5 0.5,4.52943725 0.5,9.5 C0.5,14.4705627 4.52943725,18.5 9.5,18.5 Z" id="Oval" fill="#D0D3D4" fill-rule="nonzero"></path>
+                <g id="197576" transform="translate(2.000000, 2.000000)">
+                    <ellipse id="Oval" fill="#F0F0F0" cx="7.51461988" cy="7.5" rx="7.48538012" ry="7.5"></ellipse>
+                    <path d="M6.86371345,7.5 C6.86371345,7.5 2.22602339,12.8043457 2.22163743,12.803291 C3.57619883,14.1605273 5.4475731,15 7.51461988,15 C11.648655,15 15,11.6421094 15,7.5 L6.86371345,7.5 Z" id="Path" fill="#D80027"></path>
+                    <path d="M2.22163743,2.19667969 C-0.701578947,5.12560547 -0.701578947,9.87436523 2.22163743,12.8033203 C3.42961988,11.5929785 4.59140351,10.4289258 7.51461988,7.5 L2.22163743,2.19667969 Z" id="Path" fill="#0052B4"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

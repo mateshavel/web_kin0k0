@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>instagram</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Hoverstates" transform="translate(-424.000000, -453.000000)" fill="#FFFFFF">
+            <g id="Group-3" transform="translate(323.000000, 352.000000)">
+                <g id="instagram" transform="translate(101.000000, 101.000000)">
+                    <path d="M7.99999952,2 C4.68629129,2 2,4.68629129 2,7.99999952 L2,24.0000005 C2,27.3137087 4.68629129,30 7.99999952,30 L24.0000005,30 C27.3137087,30 30,27.3137087 30,24.0000005 L30,7.99999952 C30,4.68629129 27.3137087,2 24.0000005,2 L7.99999952,2 Z M7.99999952,0 L24.0000005,0 C28.4182782,-8.11624453e-16 32,3.58172179 32,7.99999952 L32,24.0000005 C32,28.4182782 28.4182782,32 24.0000005,32 L7.99999952,32 C3.58172179,32 5.41082969e-16,28.4182782 0,24.0000005 L0,7.99999952 C-5.41082969e-16,3.58172179 3.58172179,8.11624453e-16 7.99999952,0 Z" id="Rectangle" fill-rule="nonzero"></path>
+                    <path d="M15.9999995,10 C12.6862912,10 10,12.6862914 10,16.0000005 C10,19.3137088 12.6862914,22 16.0000005,22 C19.3137088,22 22,19.3137086 22,15.9999995 C22,12.6862912 19.3137086,10 15.9999995,10 Z M15.9999995,8 C20.4182782,8 24,11.5817218 24,15.9999995 C24,20.4182782 20.4182782,24 16.0000005,24 C11.5817218,24 8,20.4182782 8,16.0000005 C8,11.5817218 11.5817218,8 15.9999995,8 Z" id="Rectangle" fill-rule="nonzero"></path>
+                    <rect id="Rectangle" fill-rule="evenodd" x="23" y="6" width="3" height="3" rx="1.5"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

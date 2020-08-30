@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="50px" height="50px" viewBox="0 0 50 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="40" height="40" rx="20"></rect>
+        <filter x="-18.8%" y="-18.8%" width="137.5%" height="137.5%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.397022192 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Mobile" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="d-Mobile-Products-filtry" transform="translate(-315.000000, -2867.000000)">
+            <g id="Group-2" transform="translate(320.000000, 2872.000000)">
+                <g id="Rectangle">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use fill-opacity="0.802366395" fill="#000000" fill-rule="evenodd" xlink:href="#path-1"></use>
+                </g>
+                <path d="M14.1640621,22.5664121 C14.1093747,22.5117247 14.0820311,22.4388081 14.0820311,22.3476626 C14.0820311,22.2565171 14.1093747,22.174486 14.1640621,22.1015694 L19.9062359,16.3867393 C19.9609233,16.3138227 20.0338399,16.2773645 20.1249854,16.2773645 C20.2161309,16.2773645 20.2890475,16.3138227 20.3437349,16.3867393 L26.0859087,22.1015694 C26.1405961,22.174486 26.1679397,22.2565171 26.1679397,22.3476626 C26.1679397,22.4388081 26.1405961,22.5117247 26.0859087,22.5664121 L25.539035,23.1132857 C25.4843476,23.1862024 25.411431,23.2226605 25.3202855,23.2226605 C25.22914,23.2226605 25.147109,23.1862024 25.0741923,23.1132857 L20.1249854,18.1640788 L15.1757784,23.1132857 C15.1028618,23.1862024 15.0208308,23.2226605 14.9296853,23.2226605 C14.8385398,23.2226605 14.7656232,23.1862024 14.7109358,23.1132857 L14.1640621,22.5664121 Z" id="" fill="#FFFFFF"></path>
+            </g>
+        </g>
+    </g>
+</svg>
