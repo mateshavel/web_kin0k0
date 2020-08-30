@@ -1,0 +1,335 @@
+.modal .close {
+    opacity: 1;
+}
+
+.modal-open{
+    /*-webkit-overflow-scrolling: touch;*/
+}
+
+.modal-open {
+    overflow: hidden;
+    height: 100%;
+    position: relative;
+}
+
+.modal{
+    -webkit-overflow-scrolling: touch;
+}
+
+.modal-content {
+    padding-bottom: 20px;
+    padding-left: 32px;
+    padding-right: 32px;
+    border-radius: 0;
+    border: 0;
+}
+
+.modal-header {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 0;
+    padding-right: 0;
+    border-bottom: 1px solid #000000;
+}
+
+.modal-body {
+    padding: 0;
+}
+
+.modal-body-info {
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.modal-body-info p {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 800;
+}
+
+.modal-body-info i {
+    padding-right: 3px;
+    position: relative;
+    top: -2px;
+}
+
+.modal-footer {
+    padding-left: 0;
+    padding-right: 0;
+    border-top: 0;
+}
+
+/*# modalPreference #*/
+#modalPreference .modal-dialog {
+    max-width: 362px;
+}
+
+/*# modalLogin #*/
+.modal-login {
+    border-top: 1px solid #000000;
+}
+
+/*# modalDotsMenu #*/
+#modalDotsMenu {
+    padding-right: 0 !important;
+}
+
+#modalDotsMenu .modal-dialog {
+    position: absolute;
+    bottom: 0;
+    max-width: 100%;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+}
+
+#modalDotsMenu .modal-content {
+    padding-bottom: 0;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.save-item-wrapper span,
+.add-wish-wrapper span,
+#modal-color-slider span,
+#modal-size-slider span,
+#modal-amount-slider span,
+.remove-item-wrapper span {
+    cursor: pointer;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 14px;
+}
+
+.save-item-wrapper,
+.add-wish-wrapper,
+#modal-color-slider,
+#modal-size-slider,
+#modal-amount-slider,
+.remove-item-wrapper {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.add-wish-wrapper,
+#modal-color-slider,
+#modal-size-slider,
+#modal-amount-slider {
+    border-top: 1px solid #D8D9D9;
+}
+
+#modal-amount-slider {
+    border-bottom: 1px solid #D8D9D9;
+}
+
+/*# modalSize #*/
+#modalSize .modal-header {
+    border-bottom: 0;
+    padding-bottom: 0;
+}
+
+.size-tabs {
+    margin-bottom: 50px;
+}
+
+.size-tabs li a.active {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 13px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #000000;
+    border-bottom: 2px solid #000000;
+    padding-bottom: 9px;
+}
+
+.size-tabs li a {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 13px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #B1B3B3;
+    border-bottom: 1px solid #B1B3B3;
+    padding: 20px 10px 10px 10px;
+}
+
+.measure-block {
+    position: relative;
+}
+
+.measure-img {
+    text-align: center;
+}
+
+.measure-list {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+.measure-item {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 14px;
+    width: 30%;
+    position: absolute;
+    top: 129px;
+    left: 50%;
+    margin-left: 90px;
+    text-align: left;
+}
+
+.measure-item.left {
+    text-align: right;
+    left: auto;
+    right: 50%;
+    margin-right: 90px;
+}
+
+.measure-item:before {
+    content: '';
+    position: absolute;
+    width: 73px;
+    height: 1px;
+    background: #9b9b9b;
+    top: 10px;
+    right: 100%;
+    margin-right: 6px;
+}
+
+.measure-item.left:before {
+    right: auto;
+    left: 100%;
+    margin-right: 0;
+    margin-left: 6px;
+}
+
+.measure-item .descr {
+    line-height: 1;
+}
+
+.measure-item:nth-of-type(2) {
+    top: 172px;
+}
+
+.measure-item:nth-of-type(3) {
+    top: 226px;
+}
+
+.measure-item:nth-of-type(4) {
+    top: 264px;
+}
+
+@media (max-width: 479px) {
+    .measure-item {
+        width: 42%;
+        left: 58%;
+        margin-left: 6px;
+    }
+
+    .measure-item.left {
+        margin-right: 6px;
+        margin-left: 0;
+        right: 58%;
+    }
+
+    .measure-item:before {
+        width: 13px;
+    }
+
+    .measure-item .descr {
+        font-size: 12px;
+        background-color: white;
+        box-shadow: 2px 3px 20px #ffffff;
+        padding: 2px;
+    }
+
+    .measure-item span.subtitle {
+        background-color: white;
+        box-shadow: 2px 3px 20px #ffffff;
+        padding: 2px;
+    }
+
+    .size-tabs li a ,
+    .size-tabs li a.active {
+        font-size: 11px;
+        padding: 15px 10px 10px 10px;
+    }
+}
+
+#modalSize table {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+#modalSize table thead th {
+    font-family: 'Nunito Sans', sans-serif;
+    color: #000000;
+    text-transform: uppercase;
+    font-size: 13px;
+    padding: 5px 75px 10px 5px;
+    width: 75px;
+}
+
+#modalSize table tbody th {
+    font-family: 'Nunito Sans', sans-serif;
+    color: #000000;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+
+#modalSize table tbody td {
+    font-family: 'Nunito Sans', sans-serif;
+    color: #000000;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+
+#modalSize .tabs-note {
+    font-family: 'Nunito Sans', sans-serif;
+    color: #000000;
+    font-size: 13px;
+    font-style: italic;
+}
+
+#modalSize .modal-dialog {
+    max-width: 90%;
+}
+
+@media (min-width: 576px) {
+    #modalSize .modal-dialog {
+        max-width: 800px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,522 @@
+/*@import url('https://fonts.googleapis.com/css?family=Nunito+Sans:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i&display=swap');*/
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i&display=swap&subset=latin-ext');
+
+@font-face {
+    font-family: "Anglecia Pro Display W01 Rg";
+    src: url("../Kinoko/media/Kinoko/fonts/Anglecia Pro Display W01 Rg.eot");
+    src: url("../Kinoko/media/Kinoko/fonts/Anglecia Pro Display W01 Rg.eot?#iefix") format("embedded-opentype"),
+    url("../Kinoko/media/Kinoko/fonts/Anglecia Pro Display W01 Rg.woff2") format("woff2"),
+    url("../Kinoko/media/Kinoko/fonts/Anglecia Pro Display W01 Rg.woff") format("woff"),
+    url("../Kinoko/media/Kinoko/fonts/Anglecia Pro Display W01 Rg.ttf") format("truetype"),
+    url("../Kinoko/media/Kinoko/fonts/Anglecia Pro Display W01 Rg.svg#AngleciaProDisplayW01-Rg") format("svg");
+    src: url("../Kinoko/media/Kinoko/fonts/AngleciaProDisplay-Regular.otf") format("opentype");
+}
+
+@font-face {
+    font-family: 'danzzabold';
+    src: url('../Kinoko/media/Kinoko/fonts/danzza-bold-webfont.eot');
+    src: url('../Kinoko/media/Kinoko/fonts/danzza-bold-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../Kinoko/media/Kinoko/fonts/danzza-bold-webfont.woff2') format('woff2'),
+    url('../Kinoko/media/Kinoko/fonts/danzza-bold-webfont.woff') format('woff'),
+        /*url("../Kinoko/media/Kinoko/fonts/Danzza-Bold.otf") format("opentype");*/
+    url('../Kinoko/media/Kinoko/fonts/danzza-bold-webfont.ttf') format('truetype'),
+    url('../Kinoko/media/Kinoko/fonts/danzza-bold-webfont.svg#danzzaregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'danzzamedium';
+    src: url('../Kinoko/media/Kinoko/fonts/danzza-medium-webfont.eot');
+    src: url('../Kinoko/media/Kinoko/fonts/danzza-medium-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../Kinoko/media/Kinoko/fonts/danzza-medium-webfont.woff2') format('woff2'),
+    url('../Kinoko/media/Kinoko/fonts/danzza-medium-webfont.woff') format('woff'),
+    /*url("../Kinoko/media/Kinoko/fonts/Danzza-Medium.otf") format("opentype");*/
+    url('../Kinoko/media/Kinoko/fonts/danzza-medium-webfont.ttf') format('truetype'),
+    url('../Kinoko/media/Kinoko/fonts/danzza-medium-webfont.svg#danzzaregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'danzzaregular';
+    src: url('../Kinoko/media/Kinoko/fonts/danzza-regular-webfont.eot');
+    src: url('../Kinoko/media/Kinoko/fonts/danzza-regular-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../Kinoko/media/Kinoko/fonts/danzza-regular-webfont.woff2') format('woff2'),
+    url('../Kinoko/media/Kinoko/fonts/danzza-regular-webfont.woff') format('woff'),
+    /*url("../Kinoko/media/Kinoko/fonts/Danzza-Regular.otf") format("opentype");*/
+    url('../Kinoko/media/Kinoko/fonts/danzza-regular-webfont.ttf') format('truetype'),
+    url('../Kinoko/media/Kinoko/fonts/danzza-regular-webfont.svg#danzzaregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SyneBeta';
+    src: url('../Kinoko/media/Kinoko/fonts/syne-extra-kinoko-beta-v03-webfont.eot');
+    src: url('../Kinoko/media/Kinoko/fonts/syne-extra-kinoko-beta-v03-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../Kinoko/media/Kinoko/fonts/syne-extra-kinoko-beta-v03-webfont.woff2') format('woff2'),
+    url('../Kinoko/media/Kinoko/fonts/syne-extra-kinoko-beta-v03-webfont.woff') format('woff'),
+    /*url("../Kinoko/media/Kinoko/fonts/Syne-Extra-Kinoko-Beta-V03.otf")*/
+    url('../Kinoko/media/Kinoko/fonts/syne-extra-kinoko-beta-v03-webfont.ttf') format('truetype'),
+    url('../Kinoko/media/Kinoko/fonts/syne-extra-kinoko-beta-v03-webfont.svg#syne_kinoko_betaextra') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Georgia";
+url("../Kinoko/media/Kinoko/fonts/Georgia.ttf") format("truetype"),
+}
+
+@font-face {
+    font-family: "Georgia bold";
+url("../Kinoko/media/Kinoko/fonts/Georgia-Bold.ttf") format("truetype"),
+}
+
+body {
+    color: #000000;
+}
+
+h1, .text-h1 {
+    /*font-family: 'Nunito Sans', sans-serif;*/
+    font-family: 'SyneBeta', sans-serif;
+    font-size: 40px;
+    line-height: 44px; /*new*/
+    /*font-weight: 800;*/
+}
+
+h2, .text-h2 {
+    /*font-family: 'Nunito Sans', sans-serif;*/
+    font-family: 'danzzamedium', sans-serif;
+    font-size: 32px;
+    /*font-weight: 800;*/
+}
+
+h3, .text-h3 {
+    /*font-family: 'Nunito Sans', sans-serif;*/
+    font-family: 'danzzamedium', sans-serif;
+    font-size: 32px;
+    /*font-weight: 800;*/
+    line-height: 48px; /*new*/
+}
+
+h4, .text-h4 {
+    /*font-family: 'Nunito Sans', sans-serif;*/
+    font-family: "danzzamedium", sans-serif;
+    font-size: 44px;
+    line-height: 43px;
+    /*font-weight: 800;*/
+}
+
+.text-32-44 {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 32px;
+    font-weight: 800;
+}
+
+h5, .text-h5 {
+    /*font-family: 'Nunito Sans', sans-serif;*/
+    font-family: "danzzamedium", sans-serif;
+    font-size: 32px;
+    /*font-weight: 800;*/
+    line-height: 39px; /*new*/
+}
+
+.text-h5-anglecia {
+    /*font-family: 'Anglecia Pro Display W01 Rg', sans-serif;*/
+    font-family: 'danzzamedium', sans-serif;
+    font-size: 30px;
+}
+
+h6, .text-h6 {
+    /*font-family: 'Anglecia Pro Display W01 Rg', sans-serif;*/
+    font-family: 'danzzamedium', sans-serif;
+    font-size: 30px;
+    line-height: 40px; /*new*/
+}
+
+.text-h6-tin {
+    font-family: 'Anglecia Pro Display W01 Rg', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.text-h6-small {
+    /*font-family: 'Anglecia Pro Display W01 Rg', sans-serif;*/
+    font-family: 'danzzamedium', sans-serif;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.text-h6-small-tin {
+    /*font-family: 'Anglecia Pro Display W01 Rg', sans-serif;*/
+    font-family: 'danzzaregular', sans-serif;
+    font-size: 24px;
+    /*font-weight: 500;*/
+}
+
+.text-h6-nunito {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.text-info-article {
+    /*font-family: 'Nunito Sans', sans-serif;*/
+    font-family: 'danzzaregular', sans-serif;
+    font-size: 13px;
+    /*font-weight: 600;*/
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.text-menu {
+    /*font-family: 'Nunito Sans', sans-serif;*/
+    font-family: 'danzzamedium', sans-serif;
+    font-size: 13px;
+    /*font-weight: 800;*/
+}
+
+.text-paragraph {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.text-paragraph-tin {
+    /*font-family: 'Nunito Sans', sans-serif;*/
+    font-family: 'danzzaregular', sans-serif;
+    font-size: 22px;
+    line-height: 30px;
+    /*font-weight: 500;*/
+}
+
+.text-card {
+    font-family: 'Nunito Sans', sans-serif;
+    /*font-family: 'danzzamedium', sans-serif;*/
+    font-size: 14px;
+    font-weight: 800;
+}
+
+.text-card-shadow {
+    /*font-family: 'Nunito Sans', sans-serif;*/
+    font-family: 'danzzaregular', sans-serif;
+    font-size: 16px;
+    line-height: 19px; /*new*/
+    color: #B1B3B3;
+}
+
+.text-copy {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 12px;
+}
+
+.text-danzareg {
+    font-family: 'danzzaregular', sans-serif;
+}
+
+.text-danzamed {
+    font-family: 'danzzamedium', sans-serif;
+}
+
+.text-foot-s {
+    /*font-family: 'Nunito Sans', sans-serif;*/
+    font-family: 'danzzaregular', sans-serif;
+    font-size: 13px;
+    line-height: 24px;
+    font-weight: 200;
+}
+
+.text-foot {
+    /*font-family: 'Nunito Sans', sans-serif;*/
+    font-family: 'danzzaregular', sans-serif;
+    font-size: 14px;
+}
+
+.text-foot-nutino {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 14px;
+}
+
+.text-info-shadow-s {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 13px;
+    color: #B1B3B3;
+}
+
+.text-info-shadow {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 14px;
+    color: #B1B3B3;
+}
+
+.text-citation {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.text-newsletter {
+    /*font-family: 'Nunito Sans', sans-serif;*/
+    font-family: 'danzzamedium', sans-serif;
+    font-size: 24px;
+    /*font-weight: 700;*/
+}
+
+.text-email,
+.text-phone {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 29px;
+    font-weight: 300;
+}
+
+.text-total-price {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 21px;
+    font-weight: 700;
+}
+
+.text-total-text-price {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.text-select-label {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    padding: 2px;
+}
+
+.text-small {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 12px;
+}
+
+.text-nunito {
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.text-16-18 {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+/*new*/
+.text-g-description {
+    font-family: 'Georgia', sans-serif;
+    font-size: 19px;
+    line-height: 30px;
+}
+
+.text-g-heading {
+    font-family: 'Georgia', sans-serif;
+    font-size: 26px;
+    line-height: 30px;
+    font-weight: bold;
+}
+
+/*end new*/
+
+.fs-12 {
+    font-size: 12px;
+}
+
+.fs-14 {
+    font-size: 14px;
+}
+
+.fs-15 {
+    font-size: 15px;
+}
+
+.fs-16 {
+    font-size: 16px;
+}
+
+.fs-18 {
+    font-size: 18px !important;
+}
+
+.fs-19 {
+    font-size: 19px !important;
+}
+
+.fs-22 {
+    font-size: 22px;
+}
+
+.fs-24 {
+    font-size: 24px !important;
+}
+
+.fs-29 {
+    font-size: 29px;
+}
+
+.fs-32 {
+    font-size: 32px !important;
+}
+
+.fs-38 {
+    font-size: 38px;
+}
+
+.fs-50 {
+    font-size: 50px !important;
+}
+
+.fs-52 {
+    font-size: 52px !important;
+}
+
+.fw-300 {
+    font-weight: 300;
+}
+
+.fw-500 {
+    font-weight: 500;
+}
+
+.fw-600 {
+    font-weight: 600;
+}
+
+.fw-700 {
+    font-weight: 700;
+}
+
+.fw-800 {
+    font-weight: 800 !important;
+}
+
+.lh-44 {
+    line-height: 44px;
+}
+
+.lh-48 {
+    line-height: 48px;
+}
+
+.text-italic {
+    font-style: italic !important;
+}
+
+.text-uppercase {
+    text-transform: uppercase;
+}
+
+.text-underline {
+    text-decoration: underline !important;
+}
+
+.text-baseline {
+    align-items: baseline;
+}
+
+@media (min-width: 992px) {
+
+    h1, .text-h1 {
+        font-size: 84px;
+        line-height: 80px;
+    }
+
+    h2, .text-h2 {
+        font-size: 64px;
+    }
+
+    h3, .text-h3 {
+        font-size: 52px;
+    }
+
+    .text-h5-anglecia {
+        font-size: 36px;
+    }
+
+    .text-h6-tin {
+        font-size: 30px;
+    }
+
+    .text-h6-nunito {
+        font-size: 22px;
+    }
+
+    .text-citation {
+        font-size: 29px;
+    }
+
+    .text-total-price {
+        font-size: 24px;
+    }
+
+    .text-total-text-price {
+        font-size: 16px;
+    }
+
+    .text-select-label {
+        font-size: 14px;
+        padding: 22px 30px 20px 30px;
+    }
+
+    .text-small {
+        font-size: 14px;
+    }
+
+    .text-card {
+        font-size: 16px;
+    }
+
+    .text-16-18 {
+        font-size: 18px;
+    }
+
+    .text-32-44 {
+        font-size: 44px;
+    }
+
+    .text-menu {
+        letter-spacing: 0.7px;
+    }
+
+}
+
+.ol-num {
+    display: block;
+    list-style-type: none;
+    /* -webkit-margin-before: 1em; */
+    /* -webkit-margin-after: 1em; */
+    /* -webkit-margin-start: 0; */
+    /* -webkit-margin-end: 0; */
+    -webkit-padding-start: 29px;
+    counter-reset: count-me;
+}
+
+.ol-num li {
+    padding-left: 5px;
+    padding-top: 20px;
+    position: relative;
+}
+
+.ol-num li:before {
+    content: counter(count-me) ". ";
+    counter-increment: count-me;
+    position: absolute;
+    left: -30px;
+    right: 0;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: bold;
+    color: #222222;
+    padding-top: 1px;
+}
+
+
+/** {*/
+/*    !* Activates alternative letter a in Europa Font *!*/
+/*    -moz-font-feature-settings: "ss01";*/
+/*    -webkit-font-feature-settings: "ss01";*/
+/*    font-feature-settings: "ss01";*/
+/*}*/

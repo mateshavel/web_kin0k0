@@ -1,0 +1,1186 @@
+input::-ms-clear {
+    display: none;
+}
+
+input[type="button"]{
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+}
+
+.cta {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    padding: 10px 19px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    display: block;
+    text-align: center;
+}
+
+.cta-white {
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    background-color: #000000;
+}
+
+.cta-white:hover {
+    color: #000000 !important;
+    border: 1px solid #000000;
+    background-color: #ffffff;
+}
+
+.cta-black {
+    color: #000000;
+    border: 1px solid #000000;
+    background-color: #ffffff;
+}
+
+.cta-black:hover {
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    background-color: #000000
+}
+
+.cta-shadow {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.73px;
+    color: #B1B3B3;
+    border: 1px solid #B1B3B3;
+    background-color: #ffffff;
+    line-height: 20px;
+}
+
+.cta-messenger {
+    display: inline-block;
+    padding: 11px 48px;
+    color: #ffffff;
+    background-color: #142A57;
+}
+
+.cta-messenger:hover {
+    color: #ffffff;
+    background-color: #435579;
+}
+
+.cta-facebook {
+    display: inline-block;
+    font-family: 'Nunito Sans', sans-serif;
+    text-transform: inherit;
+    font-size: 13px;
+    font-weight: 700;
+    padding: 5px 12px;
+    color: #ffffff;
+    background-color: #142A57;
+}
+
+.cta-facebook:hover {
+    color: #ffffff;
+    background-color: #435579;
+}
+
+.cta-left svg,
+.cta-right svg,
+.cta-facebook svg,
+.cta-messenger svg {
+    position: relative;
+    top: -2px;
+}
+
+.cta-facebook svg {
+    left: -2px;
+}
+
+.cta-wishlist {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-align: center;
+    display: inline-block;
+    padding: 4px 5px;
+    color: #000000;
+    border: 1px solid #D8D9D9;
+    width: 150px;
+    height: 28px;
+}
+
+.cta-wishlist:hover {
+    border: 1px solid #000000;
+}
+
+.cta-wishlist svg {
+    position: relative;
+    top: -2px;
+}
+
+.cta-small {
+    font-size: 13px;
+    padding: 8px 12px;
+}
+
+.cta-left:hover svg #svg-left {
+    fill: #ffffff;
+}
+
+.cta-right:hover svg #svg-right {
+    fill: #000000;
+}
+
+.cta-right svg {
+    transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+}
+
+.cta-redi {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: #000000;
+    border-bottom: 2px solid #FFAA00;
+    text-transform: uppercase;
+    padding-bottom: 4px;
+}
+
+.cta-redi svg {
+    position: relative;
+    top: -1px;
+}
+
+.cta-redi:hover {
+    border-bottom: 2px solid rgba(241, 189, 200, 0.5);
+}
+
+.underline {
+    text-decoration: underline !important;
+}
+
+.underline:hover {
+    color: #6E6E6E !important;
+}
+
+.form-newsletter {
+    display: block;
+    width: 100%;
+    padding: 6px 0;
+    font-size: 14px;
+    color: #ffffff;
+    background-color: #000000;
+    background-clip: padding-box;
+    border-bottom: 2px solid #7C878E;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 0;
+    transition: none;
+    margin-bottom: 25px;
+}
+
+.unsubscribe-page .form-newsletter{
+    padding: 3px 0;
+}
+
+.form-newsletter::placeholder {
+    color: #ffffff;
+    opacity: 1;
+}
+
+.form-newsletter::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: #ffffff;
+    opacity: 1;
+}
+
+.form-newsletter::-moz-placeholder { /* Firefox 19+ */
+    color: #ffffff;
+    opacity: 1;
+}
+
+.form-newsletter:-ms-input-placeholder { /* IE 10+ */
+    color: #ffffff;
+    opacity: 1;
+}
+
+.form-newsletter:-moz-placeholder { /* Firefox 18- */
+    color: #ffffff;
+    opacity: 1;
+}
+
+.form-newsletter:focus {
+    outline: none;
+}
+
+.form-newsletter-submit {
+    position: absolute;
+    top: 4px;
+    right: 19px;
+    border: none;
+    background-color: transparent;
+}
+
+.form-newsletter-submit:focus {
+    outline: none;
+}
+
+.form-search {
+    display: block;
+    width: 100%;
+    max-width: 490px;
+    padding: 6px 6px 6px 40px;
+    font-size: 14px;
+    color: #000000;
+    background-clip: padding-box;
+    border-bottom: 1px solid #B1B3B3;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 0;
+    transition: none;
+    margin: 0 auto 10px;
+}
+
+.form-search:focus {
+    outline: none;
+}
+
+.form-search-submit {
+    position: absolute;
+    top: -5px;
+    left: 10px;
+    border: none;
+    background-color: transparent;
+}
+
+.form-search-submit:focus {
+    outline: none;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    height: 44px;
+    padding: 7px 10px;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #B1B3B3;
+    border-radius: 0
+}
+
+.form-control:focus {
+    outline: none;
+    border-color: #B1B3B3;
+    outline: 0;
+    box-shadow: none;
+}
+
+.form-row > .col, .form-row [class*=col-] {
+    padding-right: 8px;
+    padding-left: 8px;
+}
+
+.form-group {
+    margin-bottom: 22px;
+}
+
+label {
+    color: #000000;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+@media (max-width: 380px) {
+    .cta-small {
+        font-size: 13px;
+        padding: 8px 9px;
+    }
+}
+
+@media (max-width: 370px) {
+    .cta {
+        font-family: 'Nunito Sans', sans-serif;
+        font-size: 14px;
+        font-weight: 700;
+        padding: 10px 8px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        display: block;
+        text-align: center;
+    }
+}
+
+/*select-small*/
+.select-small .fstdiv {
+    font-family: 'Nunito Sans', sans-serif !important;
+    font-size: 14px !important;
+    font-weight: 700 !important;
+    width: 97px !important;
+}
+
+.select-small .fstdropdown {
+    vertical-align: middle;
+    border: none;
+    border-radius: 0;
+    cursor: pointer;
+    background: #F8F9F9;
+    overflow: hidden;
+    width: 100%;
+}
+
+.select-small .fstdropdown > .fstselected {
+    line-height: 1.42857143;
+    padding: 5px 24px 5px 10px;
+    box-shadow: none;
+    color: #000000;
+    font-size: 14px;
+    outline: 0;
+    position: relative;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-user-select: none;
+}
+
+.select-small .fstdropdown > .fstselected::after {
+    content: none;
+}
+
+.select-small .fstdropdown > .fstselected::before {
+    content: url("../Kinoko/media/Kinoko/icons/arrow-down-black.svg");
+    display: block;
+    width: 22px;
+    height: 10px;
+    right: 5px;
+    position: absolute;
+    top: 4px;
+}
+
+.select-small .fstdropdown.open > .fstselected::before {
+    width: 22px;
+    height: 19px;
+    right: 15px;
+    top: 4px;
+    transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+}
+
+.select-small .fstlist > div {
+    font-size: 12px;
+    padding: 5px 10px;
+    user-select: none;
+    -webkit-user-select: none;
+    border-bottom: 1px solid #f5f5f5;
+}
+
+.select-small .fstlist > div.selected {
+    background-color: #F8F9F9;
+    color: #262626;
+}
+
+.select-small .fstlist > div:hover {
+    background-color: #ECECEC;
+    color: #000000;
+}
+
+.select-small .fstdropdown.open:hover {
+    box-shadow: none;
+    border-color: transparent;
+    transition: box-shadow 142ms linear;
+    -moz-transition: box-shadow 142ms linear;
+    -webkit-transition: box-shadow 142ms linear;
+}
+
+/*select-classic*/
+.select-classic {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.select-classic .fstdiv {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    width: 297px;
+}
+
+.section-user-tabs .select-classic .fstdiv {
+    width: 100%;
+}
+
+.select-classic .fstdropdown {
+    vertical-align: middle;
+    border: 1px solid #B1B3B3;
+    border-radius: 0;
+    cursor: pointer;
+    background: #ffffff;
+    overflow: hidden;
+    width: 100%;
+}
+
+.select-classic .fstdropdown:hover {
+    border: 1px solid #000000;
+}
+
+.select-classic .fstlist > div {
+    padding: 12px 20px 12px 20px;
+    user-select: none;
+    -webkit-user-select: none;
+    border-bottom: none;
+}
+
+.select-classic .fstdropdown > .fstselected {
+    line-height: 1.42857143;
+    padding: 10px 20px 10px 20px;
+    box-shadow: none;
+    color: #000000;
+    font-size: 16px;
+    outline: 0;
+    position: relative;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-user-select: none;
+}
+
+.select-classic .fstdropdown > .fstselected::after {
+    content: none;
+}
+
+.select-classic .fstdropdown > .fstselected::before {
+    content: url("../Kinoko/media/Kinoko/icons/arrow-down-black.svg");
+    display: block;
+    width: 22px;
+    height: 10px;
+    right: 5px;
+    position: absolute;
+    top: 10px;
+}
+
+.select-classic .fstdropdown.open > .fstselected::before {
+    width: 22px;
+    height: 19px;
+    right: 15px;
+    top: 12px;
+    transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+}
+
+.select-classic .fstlist > div.selected {
+    background-color: #ffffff;
+    color: #262626;
+}
+
+.select-classic .fstlist > div:hover {
+    background-color: #ECECEC;
+    color: #000000;
+}
+
+.select-classic .fstdropdown.open:hover {
+    box-shadow: none;
+    border-color: #B1B3B3;
+    transition: box-shadow 142ms linear;
+    -moz-transition: box-shadow 142ms linear;
+    -webkit-transition: box-shadow 142ms linear;
+}
+
+.select-classic .fstdiv {
+    min-height: 44px !important;
+}
+
+@media (max-width: 370px) {
+    .select-classic .fstdiv {
+        width: 240px;
+    }
+}
+
+/*select-sort*/
+.select-sort {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.select-sort .fstdiv {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.73px;
+    color: #B1B3B3;
+    width: 204px;
+}
+
+.select-sort .fstdropdown {
+    vertical-align: middle;
+    border: 1px solid #B1B3B3;
+    border-radius: 0;
+    cursor: pointer;
+    background: #ffffff;
+    overflow: hidden;
+    width: 100%;
+}
+
+.select-sort .fstdropdown:hover {
+    border: 1px solid #D8D9D9;
+}
+
+.select-sort .fstlist > div {
+    padding: 12px 20px 12px 20px;
+    user-select: none;
+    -webkit-user-select: none;
+    border-bottom: none;
+}
+
+.select-sort .fstdropdown > .fstselected {
+    line-height: 1.42857143;
+    padding: 10px 20px 10px 20px;
+    box-shadow: none;
+    color: #B1B3B3;
+    font-size: 13px;
+    outline: 0;
+    position: relative;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-user-select: none;
+}
+
+.select-sort .fstdropdown > .fstselected::after {
+    content: none;
+}
+
+.select-sort .fstdropdown > .fstselected::before {
+    content: url("../Kinoko/media/Kinoko/icons/arrow down 2.svg");
+    display: block;
+    width: 22px;
+    height: 10px;
+    right: 5px;
+    position: absolute;
+    top: 9px;
+}
+
+.select-sort .fstdropdown.open > .fstselected::before {
+    width: 22px;
+    height: 19px;
+    right: 15px;
+    top: 9px;
+    transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+}
+
+.select-sort .fstlist > div.selected {
+    background-color: #ffffff;
+    color: #262626;
+}
+
+.select-sort .fstlist > div:hover {
+    background-color: #ECECEC;
+    color: #000000;
+}
+
+.select-sort .fstdropdown.open:hover {
+    box-shadow: none;
+    border-color: #B1B3B3;
+    transition: box-shadow 142ms linear;
+    -moz-transition: box-shadow 142ms linear;
+    -webkit-transition: box-shadow 142ms linear;
+}
+
+@media (max-width: 370px) {
+    .select-sort .fstdiv {
+        width: 204px;
+    }
+}
+
+/*filter tab*/
+.filter-tab {
+    width: 122px;
+}
+
+.filter-tab a {
+    display: block;
+    position: relative;
+    background-color: #B1B3B3;
+    color: #ffffff;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.73px;
+    padding-top: 11px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 50px;
+}
+
+.filter-tab a:hover {
+    background-color: #D8D9D9;
+    color: #ffffff;
+}
+
+.filter-tab svg {
+    position: absolute;
+    top: 15px;
+    right: 12px;
+}
+
+.filter-tab a[aria-expanded="true"] svg {
+    transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+}
+
+/*radio buttons*/
+.radio {
+    display: block;
+    position: relative;
+    padding-top: 6px;
+    padding-left: 40px;
+    margin-bottom: 0;
+    cursor: pointer;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 14px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    letter-spacing: -0.3px;
+}
+
+.radio input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.checkround {
+    position: absolute;
+    top: 6px;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background-color: #fff;
+    border-color: #b1b3b3;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 50%;
+}
+
+.radio.active-delivery .checkround,
+.radio.active-payment .checkround,
+.radio.active .checkround {
+    border-color: #000000;
+}
+
+.radio input:checked ~ .checkround {
+    background-color: #fff;
+}
+
+.checkround:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.radio input:checked ~ .checkround:after {
+    display: block;
+}
+
+.radio .checkround:after {
+    left: 4px;
+    top: 4px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #000000;
+}
+
+@media (max-width: 380px) {
+    .filter-tab {
+        width: 115px;
+    }
+}
+
+/*classic checkboc*/
+.checkbox-classic-wrapper {
+    position: relative;
+}
+
+.checkbox-classic {
+    position: relative;
+    /*left: 0;*/
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+
+    padding-left: 40px;
+    left: -40px;
+}
+
+.checkbox-classic input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+    /*position: absolute;*/
+    /*left: -39px;*/
+    /*opacity: 0;*/
+    /*cursor: pointer;*/
+    /*height: 20px;*/
+    /*width: 20px;*/
+}
+
+.checkbox-classic svg {
+    position: absolute;
+    top: -1px;
+    /*left: -40px;*/
+    pointer-events: none;
+    cursor: default;
+
+    left: 0px;
+}
+
+.checkbox-classic svg #checksvg {
+    fill: transparent;
+}
+
+.checkbox-classic.active svg #checksvg {
+    fill: #000000;
+}
+
+@media (min-width: 992px) {
+    .checkbox-classic {
+        font-weight: 800;
+    }
+}
+
+/*small checkbox*/
+.checkbox-small-wrapper {
+    position: relative;
+}
+
+@media (min-width: 992px) {
+    .checkbox-small {
+        position: relative;
+        left: 0;
+        font-family: 'Nunito Sans', sans-serif;
+        font-size: 16px;
+        font-weight: 600;
+        cursor: pointer;
+        display: block;
+        padding-left: 30px;
+    }
+
+    .checkbox-small input {
+        position: absolute;
+        opacity: 0;
+        cursor: pointer;
+        height: 0;
+        width: 0;
+        /*position: absolute;*/
+        /*left: -39px;*/
+        /*opacity: 0;*/
+        /*cursor: pointer;*/
+        /*height: 20px;*/
+        /*width: 20px;*/
+    }
+
+    .checkbox-small svg {
+        position: absolute;
+        top: 1px;
+        left: 0;
+        pointer-events: none;
+        cursor: default;
+    }
+
+    .checkbox-small svg #checksvg {
+        fill: transparent;
+    }
+
+    .checkbox-small.active svg #checksvg {
+        fill: #000000;
+    }
+}
+
+@media (max-width: 991px) {
+    .product-filter-card-style .checkbox-small span {
+        font-family: 'Nunito Sans', sans-serif;
+        font-size: 14px;
+        text-align: center;
+        display: block;
+        font-weight: 500;
+        border-radius: 18px;
+        background-color: #EBECEC;
+        border: 1px solid transparent;
+        padding: 7px 17px 7px 17px;
+    }
+
+    .product-filter-card-style .checkbox-small.active span {
+        border: 1px solid #000000 !important;
+    }
+
+    .product-filter-card-style .checkbox-small svg {
+        display: none;
+    }
+
+    .product-filter-card-style .checkbox-small input {
+        position: absolute;
+        opacity: 0;
+        cursor: pointer;
+        height: 0;
+        width: 0;
+    }
+}
+
+
+/*color checkbox*/
+.checkbox-small-wrapper {
+    position: relative;
+}
+
+.checkbox-small-wrapper label{
+    cursor: pointer;
+}
+
+
+@media (min-width: 992px) {
+    .checkbox-color {
+        position: relative;
+        display: inline-flex;
+        height: 33px;
+        width: 33px;
+        border-radius: 50%;
+        border: 1px solid transparent;
+    }
+
+    .checkbox-color input {
+        position: absolute;
+        opacity: 0;
+        cursor: pointer;
+        height: 0;
+        width: 0;
+        /*position: absolute;*/
+        /*left: -39px;*/
+        /*opacity: 0;*/
+        /*cursor: pointer;*/
+        /*height: 20px;*/
+        /*width: 20px;*/
+    }
+
+    .checkbox-color.active {
+        border: 1px solid #000000;
+    }
+
+    .checkbox-color i,
+    .checkbox-color span {
+        position: absolute;
+        top: 3px;
+        left: 3px;
+        height: 25px;
+        width: 25px;
+        border-radius: 50%;
+        border: 1px solid #D0D3D4;
+        cursor: pointer;
+    }
+
+    #color-slider .checkbox-color:hover span {
+        position: absolute!important;
+        top: 30px!important;
+        left: 0px!important;
+        border: 0!important;
+        font-weight: 600!important;
+        display: block!important;
+        width: 130px;
+        line-height: 17px;
+    }
+}
+
+@media (max-width: 991px) {
+    .product-filter-card-color .checkbox-color {
+        position: relative;
+    }
+
+    .product-filter-card-color .tns-horizontal.tns-subpixel > .tns-item {
+        /*display: inline-flex!important;*/
+        /*white-space: inherit!important;*/
+    }
+
+    .product-filter-card-color .checkbox-color input {
+        position: absolute;
+        opacity: 0;
+        cursor: pointer;
+        height: 0;
+        width: 0;
+    }
+
+    .product-filter-card-color .checkbox-color.active span.d-hide {
+        border: 1px solid #000000 !important;
+    }
+
+    .product-filter-card-color .checkbox-color i {
+        width: 25px;
+        height: 25px;
+        display: block;
+        border-radius: 50%;
+        position: absolute;
+        top: 6px;
+        left: 8px;
+        border: 1px solid #D0D3D4;
+    }
+
+    .product-filter-card-color .checkbox-color span.d-hide {
+        font-family: 'Nunito Sans', sans-serif;
+        font-size: 14px;
+        text-align: center;
+        /*display: block;*/
+        font-weight: 500;
+        border-radius: 18px;
+        background-color: #EBECEC;
+        border: 1px solid transparent;
+        padding: 7px 17px 7px 40px;
+        /*margin-right: 10px;*/
+    }
+}
+
+
+/*size checkbox*/
+.checkbox-size {
+    display: inline-flex;
+    height: 48px;
+    width: 48px;
+    background-color: #EBECEC;
+    margin-right: 7px;
+    margin-bottom: 9px;
+    border: 1px solid transparent;
+}
+
+.checkbox-size.active {
+    border: 1px solid #000000;
+}
+
+.checkbox-size:hover {
+    background-color: rgba(235, 236, 236, 0.5);
+}
+
+.checkbox-size span {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 14px;
+    text-align: center;
+    padding-top: 13px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 500;
+}
+
+.checkbox-size input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+    /*position: absolute;*/
+    /*left: -39px;*/
+    /*opacity: 0;*/
+    /*cursor: pointer;*/
+    /*height: 20px;*/
+    /*width: 20px;*/
+}
+
+@media (min-width: 992px) {
+    .checkbox-size {
+        height: 40px;
+        width: 40px;
+    }
+
+    .checkbox-size span {
+        padding-top: 9px;
+    }
+}
+
+/*filter-product-tag*/
+.filter-product-tag {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 16px;
+    color: #000000;
+    font-weight: 500;
+    background-color: #EBECEC;
+    border-radius: 18px;
+    position: relative;
+    padding: 7px 45px 7px 17px;
+    margin-right: 10px;
+}
+
+.filter-product-tag a {
+    position: absolute;
+    top: 6px;
+    right: 15px;
+}
+
+.filter-product-tag span.color-tag {
+    display: inline-block;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    margin-left: -7px;
+}
+
+
+/*classic a*/
+a.classic-href {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 800;
+    color: #000000;
+    text-decoration: underline;
+}
+
+a.classic-href:hover {
+    color: #6E6E6E;
+    text-decoration: underline;
+}
+
+/*# RADIO COLOR #*/
+.radio-color {
+    cursor: pointer;
+    position: relative;
+}
+
+.radio-color input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+.radio-color label {
+    padding: 0;
+    padding-top: 23px;
+    margin-bottom: -23px;
+}
+
+.radio-color .active span {
+    border: 1px solid #000000;
+}
+
+.radio-color span {
+    height: 36px;
+    width: 36px;
+    border-radius: 50%;
+    border: 1px solid transparent;
+    display: block;
+    pointer-events: none;
+    cursor: default;
+}
+
+.radio-color i {
+    position: relative;
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    border: 1px solid #D0D3D4;
+    top: 2px;
+    left: 0px;
+    pointer-events: none;
+    cursor: default;
+}
+
+.radio-color label.active[data-color]:after {
+    content: attr(data-color);
+    position: absolute;
+    display: block;
+    top: -15px;
+    left: 0;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 14px;
+    color: #000000;
+}
+
+
+@media (min-width: 992px) {
+    .radio-color i {
+        height: 22px;
+        width: 22px;
+    }
+
+    .radio-color span {
+        height: 28px;
+        width: 28px;
+    }
+}
+
+/*# RADIO SIZE #*/
+.radio-size label {
+    display: inline-flex;
+    height: 48px;
+    width: 48px;
+    background-color: #EBECEC;
+    margin-right: 6px;
+    margin-bottom: 8px;
+    border: 1px solid transparent;
+    border-radius: 0;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.radio-size label.active {
+    border: 1px solid #000000;
+}
+
+.radio-size label:hover {
+    background-color: rgba(235, 236, 236, 0.5);
+}
+
+.radio-size span {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 14px;
+    text-align: center;
+    padding-top: 9px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 500;
+    pointer-events: none;
+    cursor: default;
+}
+
+.radio-size input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+    /*position: absolute;*/
+    /*left: -39px;*/
+    /*opacity: 0;*/
+    /*cursor: pointer;*/
+    /*height: 20px;*/
+    /*width: 20px;*/
+}
+
+@media (min-width: 992px) {
+    .radio-size label {
+        height: 40px;
+        width: 40px;
+    }
+
+    .radio-size span {
+        padding-top: 4px;
+    }
+}
+
+

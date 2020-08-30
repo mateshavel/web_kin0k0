@@ -1,0 +1,4 @@
+/*svg tooltip hiden ONLY TEMPLATE*/
+svg { pointer-events: none; }
+.shop-card-discount-code svg { pointer-events: auto}
+/**/
